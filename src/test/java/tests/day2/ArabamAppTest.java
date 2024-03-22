@@ -1,4 +1,4 @@
-package day2;
+package tests.day2;
 
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
@@ -94,6 +94,11 @@ public class ArabamAppTest {
 
         Assert.assertTrue(Integer.parseInt(enUcuzAracFiyati)>500000);
 
+
+    }
+
+    @Test
+    public void test2(){
 
     }
 
